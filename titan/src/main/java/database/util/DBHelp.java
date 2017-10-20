@@ -18,7 +18,7 @@ public class DBHelp {
 		Properties properties = new Properties();
 		InputStream inputStream = Thread.currentThread()
 				.getContextClassLoader()
-				.getResourceAsStream("config/properties/database.properties");
+				.getResourceAsStream("dataSourceConfig.properties");
 		try {
 			properties.load(inputStream);
 		} catch (Exception e) {
