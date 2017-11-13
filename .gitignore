@@ -2,3 +2,7 @@ titan/.project
 titan/.classpath
 titan/.settings/
 titan/target/
+.idea/
+titan/src/main/resources/Agile_ECloud_SDK_1.2.7.jar
+titan/src/main/java/ecloudsign/TestEcloudClient.java
+titan/src/main/java/ecloudsign/TestClient.java
