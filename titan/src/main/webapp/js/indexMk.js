@@ -15836,7 +15836,7 @@
       load: function () {
         return $.ajax({
           type: 'GET',
-          url: params.path || './demo.md',
+          url: params.path || './demoMk.md',
           dateType: 'text',
           data: {
             _t: new Date() * 1

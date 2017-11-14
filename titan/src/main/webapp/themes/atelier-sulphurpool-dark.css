@@ -34,85 +34,71 @@ li.L9 {
 @media screen {
 
   /* string content */
-
   .str {
     color: #ac9739;
   }
 
   /* keyword */
-
   .kwd {
     color: #6679cc;
   }
 
   /* comment */
-
   .com {
     color: #6b7394;
   }
 
   /* type name */
-
   .typ {
     color: #3d8fd1;
   }
 
   /* literal value */
-
   .lit {
     color: #c76b29;
   }
 
   /* punctuation */
-
   .pun {
     color: #f5f7ff;
   }
 
   /* lisp open bracket */
-
   .opn {
     color: #f5f7ff;
   }
 
   /* lisp close bracket */
-
   .clo {
     color: #f5f7ff;
   }
 
   /* markup tag name */
-
   .tag {
     color: #c94922;
   }
 
   /* markup attribute name */
-
   .atn {
     color: #c76b29;
   }
 
   /* markup attribute value */
-
   .atv {
     color: #22a2c9;
   }
 
   /* declaration */
-
   .dec {
     color: #c76b29;
   }
 
   /* variable name */
-
   .var {
     color: #c94922;
   }
 
   /* function name */
-
   .fun {
     color: #3d8fd1;
   }

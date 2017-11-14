@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.alldios</groupId>
@@ -29,8 +29,6 @@
             <artifactId>dom4j</artifactId>
             <version>2.0.0</version>
         </dependency>
-
-
         <!--spring配置 -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -161,18 +159,20 @@
             <version>1.55</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.solr</groupId>
-            <artifactId>solr-solrj</artifactId>
-            <version>4.10.4</version>
-        </dependency>
-        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+        <dependency>
+            <groupId>com.agile</groupId>
+            <artifactId>ecloud</artifactId>
+            <version>1.2.7</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/webapp/WEB-INF/libs/Agile_ECloud_SDK_1.2.7.jar</systemPath>
+        </dependency>
     </dependencies>
     <build>
-        <finalName>Titan</finalName>
+        <finalName>titan</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

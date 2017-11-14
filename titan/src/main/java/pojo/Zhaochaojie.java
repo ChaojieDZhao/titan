@@ -1,32 +1,32 @@
 package pojo;
 
 public class Zhaochaojie {
-	private int zcjID;
-	private String name;
-	private String age;
+    private int zcjID;
+    private String name;
+    private String age;
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public int getZcjID() {
-		return zcjID;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setZcjID(int zcjID) {
-		this.zcjID = zcjID;
-	}
+    public int getZcjID() {
+        return zcjID;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setZcjID(int zcjID) {
+        this.zcjID = zcjID;
+    }
 
-	public String getAge() {
-		return age;
-	}
+    public String getAge() {
+        return age;
+    }
 
-	public void setAge(String age) {
-		this.age = age;
-	}
+    public void setAge(String age) {
+        this.age = age;
+    }
 
 }
